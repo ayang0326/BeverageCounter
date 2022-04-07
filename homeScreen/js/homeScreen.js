@@ -12,7 +12,7 @@ var arrDailyDrinkData = [
 var visible = '';
 var dateVisible = false;
 var todayDate = 0;
-var drinkGoal = [
+/*var drinkGoal = [
   {amount: 1000, name: '1 Litre'},
   {amount: 1500, name: '1.5 Litres'},
   {amount: 2000, name: '2 Litres'},
@@ -21,7 +21,7 @@ var drinkGoal = [
   {amount: 3500, name: '3.5 Litres'},
   {amount: 4000, name: '4 Litres'},
 ];
-var setGoal = 0;
+var setGoal = 0;*/
 // Hide/Show functions --------------------------------
 
 $('#drinkDisplayCoffee').hide();
@@ -233,7 +233,6 @@ $('#naviCloseBtn').click(function(){
 $('#stats').click(function(){
   location.href='../test/test.html?';
 });
-
 
 
 $('#user').click(function(){
