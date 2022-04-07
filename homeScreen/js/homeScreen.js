@@ -9,6 +9,7 @@ var arrDailyDrinkData = [
     {name: "total", cups: 0, amount: 0, order: 4}
 ];
 
+
 var visible = '';
 var dateVisible = false;
 var todayDate = 0;
